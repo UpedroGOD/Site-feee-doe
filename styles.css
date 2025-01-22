@@ -1,0 +1,603 @@
+@media only screen and (max-width: 768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        box-sizing: border-box;
+        width: 100%;
+
+    }
+    body{
+        width: 100%;
+    }
+    .headers{
+        display: block;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        z-index: 1;
+
+    }.headerText{
+        width: 100%;
+        font-size: 10px;
+
+    }.headerlink{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 100%;
+        
+        
+    }.headerlink a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+    .contentSobre{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        
+        display: flex;
+       
+        flex-direction: column;
+        
+
+    }.contentCenter{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+
+        width: 100%;
+        height: 100%;
+        
+    }.content{
+        display: flex;
+
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+       
+
+    }.contentTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        margin-top:60px ;
+        margin-bottom: 20px;
+        padding: 0px;
+        width: 100%;
+        
+    }.contentTitle h1{
+        font-size: 40px;
+    }.contentInfo{
+        display: flex;
+        
+        align-items: center;
+        
+
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+        margin-left: 37px;
+        padding: 0px;
+
+        width: 80%;
+        height: 400px;
+        
+    }.contentInfo h1{
+        display: flex;
+        font-size: 15px;
+        
+        line-height: 0.5cm;
+    }.contentPhoto{
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        left: 0px;
+
+        width: 100%;
+        height: 382px;
+
+    }
+    
+    .contDoe{
+
+        display: flex;
+        width: 100%;
+        height: 800px;
+        
+
+    }.textArea{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        
+
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        
+    }.Title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        width: 100%;
+        height: 40px;
+        margin: 0px;
+        margin-bottom: 100px;
+        padding: 0px;
+        
+    }.Info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        width: 80%;
+        height: 400px;
+        margin: 0px;
+        margin-bottom: 200px;
+        margin-right: 10px;
+        padding: 0px;
+        
+    }.Title h1{
+            font-size: 30px;
+    }.Info h1 {
+        font-size: 17px;
+    }
+
+    .contetCad{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+        
+
+    }.formcerto {
+        display: flex;
+        height: 100%;
+
+
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+    
+    }.contForm{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+
+    }.formCont{
+        display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+        margin-top: 40px;
+
+        
+
+    }.formTitle, 
+    .formText{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+
+    }.formTitle{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+        width: 100%;
+        
+
+    }.formText{
+        
+        display: flex;
+        
+        width: 90%;
+        height: 190px;
+        margin-left: 30px;
+
+
+    }
+
+    .form{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        
+
+
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+        
+
+
+    }.Contname{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        
+        
+        width: 100%;
+        height: 130px;
+
+        margin-top: 20px;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+        
+    }.name{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: center;
+        width: 100%;
+
+        
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+
+    }.sobre{
+        display: flex;
+        text-align: left;
+        align-items: center;
+        
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+
+    }.sobre h1,
+    .name h1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        
+        margin-left: -15px;
+
+
+    }.inputName{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        width: 90%;
+
+        margin: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 5px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+    }
+    
+    .formaName{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+
+        
+    }.formSet{
+        display: flex;
+        width: 100%;
+        
+
+        margin: 0px;
+        margin-bottom: 50px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+    }.formSet h1{  
+        display: flex;
+        width: 93%;
+
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+
+    }
+    .inputInfo,.inputInfo2,.inputInfo3{
+        display: flex;
+        width: 95%;
+        height: 40px;
+
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        border: transparent;
+        padding-left: 10px;
+        
+
+    }.inputInfo3{
+
+        display: flex;
+        padding-left: 10px;
+        padding-top: 10px;
+    }.Contbutton{
+        display: flex;
+        justify-content: center;
+        
+        width: 100%;
+        
+        margin: 0px;
+        top: -50px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+    }.Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        width: 20%;
+        height: 20px;
+        
+        display: flex;
+        font-size: 12px;
+
+
+        
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .contCard{
+        display: flex;
+        
+        
+        margin: 0px;
+        padding: 0px;
+        
+    }.cardInfo{
+        display: flex;
+        
+        
+        margin: 0px;
+        padding: 0px;
+
+    }.card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        margin: 0px;
+        padding: 0px;
+
+        width: 100%;
+        height: 100%;
+        
+    }.cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        height: 100%;
+        justify-items: center;
+        
+        
+    }.cardForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+        width: 90%;
+        height: 50%;
+
+        margin: 20px 0px 20px 0px;
+
+       
+        
+        
+    }.cardImg,.cardImgs{
+        display: flex;
+        
+        margin: 0px;
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+
+       
+        
+        
+    }.descreption, .descreptions{
+        display: flex;
+        
+        width: 88vw;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+        
+       
+        
+    }.descText{
+        display: flex;
+        justify-content: space-between;
+
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+    
+        
+        
+    }.descText h1{
+        font-size: 13px;
+    }.descPara{
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+       
+        
+       
+    }.descPara p{
+        width: 100%;
+        display: flex;
+        
+
+        
+        
+    }
+
+    footer{
+        width: 100%;
+        
+    }
+   
+    .footerInfo  {
+        width: 30%;
+        margin: 0px;
+        padding: 0px;
+
+        
+        
+    }
+    .footerLocal{
+        display: flex;
+        
+        width: 60%;
+        height: 100%;
+        
+
+        margin: 0px;
+        padding: 0px;
+    }.localInfo{
+        width: 80%;
+        
+    }
+    
+    
+    .footerCont{
+
+        display: flex;
+        justify-content: space-around;
+    }
+    .footerCont h1{
+        display: flex;
+        font-size: 12px;
+        
+    }.footerCont li,.footerCont li a{
+        font-size: 12px;
+    }
+
+}
