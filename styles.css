@@ -138,14 +138,15 @@
 
     }.textArea{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
         flex-direction: column;
         width: 100%;
-        
-
+        height: 800px;
         border: 0px;
-        margin: 0px;
+        margin: 40px;
         padding: 0px;
+        
         
     }.Title{
         display: flex;
@@ -154,10 +155,11 @@
         text-align: center;
 
         width: 100%;
-        height: 40px;
+        height: 80px;
         margin: 0px;
-        margin-bottom: 100px;
+        margin-top: 80px;
         padding: 0px;
+        
         
     }.Info{
         display: flex;
@@ -165,12 +167,13 @@
         align-items: center;
         
 
-        width: 80%;
-        height: 400px;
+        width: 90%;
+        height: 300px;
         margin: 0px;
-        margin-bottom: 200px;
-        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-left: 20px;
         padding: 0px;
+        
         
     }.Title h1{
             font-size: 30px;
@@ -256,9 +259,7 @@
         margin-left: 30px;
 
 
-    }
-
-    .form{
+    }.form{
         display: flex;
         width: 100%;
         height: 450px;
@@ -351,9 +352,7 @@
         right: 0px;
         bottom: 0px;
         
-    }
-    
-    .formaName{
+    }.formaName{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -392,8 +391,7 @@
         bottom: 0px;
         
 
-    }
-    .inputInfo,.inputInfo2,.inputInfo3{
+    }.inputInfo,.inputInfo2,.inputInfo3{
         display: flex;
         width: 95%;
         height: 40px;
@@ -422,7 +420,7 @@
         
         margin: 0px;
         top: -50px;
-        left: 0px;
+        left: 20px;
         right: 0px;
         bottom: 0px;
         
@@ -431,8 +429,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-    span{
+    }span{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -562,42 +559,40 @@
     footer{
         width: 100%;
         
-    }
-   
-    .footerInfo  {
+    }.footerInfo  {
         width: 30%;
         margin: 0px;
-        padding: 0px;
-
+        padding: 0px;  
         
-        
-    }
-    .footerLocal{
+    } .footerLocal{
         display: flex;
         
         width: 60%;
         height: 100%;
-        
-
         margin: 0px;
         padding: 0px;
     }.localInfo{
         width: 80%;
         
-    }
+    }.localInfo ul li p a {
+        display: flex;
+        width: 127%;
     
-    
-    .footerCont{
+        margin-left: 0px;
+        font-size: 11px;
+        
+    } .footerCont{
 
         display: flex;
         justify-content: space-around;
-    }
-    .footerCont h1{
+    }.footerCont h1{
         display: flex;
         font-size: 12px;
         
     }.footerCont li,.footerCont li a{
         font-size: 12px;
+        display: flex;
+        
     }
 
 }

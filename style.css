@@ -322,6 +322,8 @@
     border-radius: 30px;
     border: 1px solid transparent;
     background-color: #fbf4db;
+
+    padding-left: 8px;
     
 }.formaName{
     display: flex;
@@ -372,9 +374,11 @@
     margin-left: 100px;
     margin-bottom: 0px;
     position: relative;
+    padding-left: 8px;
 
     }.inputInfo3{
-        padding-left: 15px;
+        padding-left: 8px;
+        padding-top: 10px;
     }
     span{
     display: flex;
